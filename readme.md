@@ -1,10 +1,19 @@
 ## Select 
 
-select is a system call that allows waiting on multiple fds
+**select** is a system call that allows waiting on multiple fds
 
 #### Select Server
 
-This is a TCP Server that implements select to connect and communicate with mulitple clients at once. 
+This is a TCP Server that implements **select** to connect and communicate with mulitple clients at once. 
+
+Other system calls used: 
+- socket
+- bind
+- listen
+- connect
+- send
+- recv
+- close
 
 #### Build
 
